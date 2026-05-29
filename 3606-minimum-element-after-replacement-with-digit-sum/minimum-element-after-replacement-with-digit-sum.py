@@ -10,7 +10,6 @@ class Solution(object):
                 res+=int(nums[i]%10)
                 nums[i]=int(nums[i]/10)
             nums[i]=res
-        nums=sorted(nums)
-        return nums[0]
+        return min(nums)
 
         
